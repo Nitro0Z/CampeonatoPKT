@@ -82,12 +82,13 @@ article p {
 
 /* Pie de página */
 footer {
+    display: inline-block;
     background-color: rgb(234, 8, 8);
     color: rgb(6, 0, 0);
     text-align: justify;
     padding: 20px;
     width: 80%;
-    margin: 280px 10px auto 150px;
+    margin: 50px 10px auto 60px;
     border-radius: 25px;
     a:link {
         color: rgb(103, 249, 6);
@@ -118,7 +119,7 @@ footer {
     display: flex; /* Utiliza flexbox para alinear las imágenes horizontalmente */
     flex-wrap: wrap;
     justify-content: space-between; /* Distribuye el espacio uniformemente entre las imágenes */
-   
+    
 }
 
 .galeria figure {
@@ -126,16 +127,21 @@ footer {
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
-}
+  }
 
 .galeria img {
-    width: 100%; 
-    max-width: 100%;
+    width: 100%; /* Ajusta el tamaño de las imágenes en la galería */
     height: auto;
-    margin-bottom: 20px;
+    display: block;
     cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
     transition: transform 0.2s; /* Añade una transición para un efecto suave al hacer hover */
 }
+
+.galeria figcaption {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
 .galeria img:hover {
     transform: scale(1.10); /* Aumenta el tamaño ligeramente al pasar el cursor */
 }
