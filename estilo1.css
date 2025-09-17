@@ -24,8 +24,15 @@ header :hover {
 
 header h1 {
     margin: 0;
-    }
+    
+}
 
+.contenedor-flex {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+  }
+  
 /* Menú de navegación */
 nav {
     background-color: rgba(200, 200, 200, 0.9);
