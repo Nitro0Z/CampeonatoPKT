@@ -1,3 +1,4 @@
+
 /* General */
 body {
     overflow-x: hidden;
@@ -19,15 +20,15 @@ header {
 
 header :hover {
      color: rgb(240, 248, 6);
-}
+     }
 
 header h1 {
     margin: 0;
-}
+    }
 
 /* Menú de navegación */
 nav {
-    background-color: brown;
+    background-color: rgba(200, 200, 200, 0.9);
     text-align: center;
 }
 
@@ -44,8 +45,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(6, 0, 0);
-    text-decoration: none;
+    color: rgb(2, 63, 2);
+    text-decoration: dotted;
     border-radius: 10;
     padding: 10px 15px;
     display: block;
@@ -175,4 +176,3 @@ figure {
 
           
         
-
