@@ -1,4 +1,4 @@
-
+s
 /* General */
 body {
     overflow-x: hidden;
@@ -29,14 +29,14 @@ header h1 {
 
 .contenedor-flex {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
   }
-  
+
 /* Menú de navegación */
 nav {
     background-color: rgba(200, 200, 200, 0.9);
-    text-align: center;
+    text-align: centerj;
 }
 
 nav ul {
@@ -132,7 +132,7 @@ footer {
 }
 
 .galeria figure {
-    width: 20%;
+    width: 50%;
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
@@ -183,4 +183,3 @@ figure {
 
           
         
-
