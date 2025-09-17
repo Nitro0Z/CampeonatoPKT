@@ -29,8 +29,8 @@ header h1 {
 
 .contenedor-flex {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;    /* Centra verticalmente */
+    justify-content: center;
+    align-items: center;
   }
   
 /* Menú de navegación */
@@ -183,3 +183,4 @@ figure {
 
           
         
+
