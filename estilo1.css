@@ -181,5 +181,38 @@ figure {
             background-color:rgb(240, 248, 6); ;
           }
 
+.clasificaciones {
+    align-content: center;
+    display: flex; /* Utiliza flexbox para alinear las imágenes horizontalmente */
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye el espacio uniformemente entre las imágenes */
+    width: 100%;
+}
+
+.clasificaciones > .Clas1 {
+
+/* para las dos primeras, ocupan 50% cada una; la tercera ocupará 100% por su propio ancho si la haces crecer */
+
+.clasificaciones > .Clas1 {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+}
+.clasificaciones > .c1,
+.clasificaciones > .c2 {
+width: 50%;
+}
+
+.clasificaciones > .c3 {
+width: 100%;
+}
+
+.clasificaciones img {
+width: 100%;
+height: auto;
+display: block;
+}
           
         
+
